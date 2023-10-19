@@ -1,0 +1,20 @@
+{
+  "announcement": [
+    {
+      "active": false,
+      "platform": "ios,android",
+      "showAnnouncementOnly": false,
+      "version": "0-27",
+      "title": "Announcement test",
+      "text": "Hello users!  \nPlease update app.  \n[here](https://play.google.com/store/apps/details?id=kr.semaphore.aienglish)"
+    },
+    {
+      "active": false,
+      "platform": "ios,android",
+      "showAnnouncementOnly": false,
+      "version": "27,28",
+      "title": "Announcement test",
+      "text": "Hello 27,28 users!  \nPlease update app.  \n[here](https://play.google.com/store/apps/details?id=kr.semaphore.aienglish)"
+    }
+  ]
+}
