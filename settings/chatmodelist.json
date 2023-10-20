@@ -12,7 +12,7 @@
       "roleName": "SajuGPT",
       "function": "ask_saju",
       "evaluation": "평가 해봐.",
-      "notice": "베타 테스트에 참여해 주셔서 감사합니다!\n많은 분들과 함께 할 수록 사주GPT는 더 똑똑해 집니다."
+      "notice": "Free Research Preview.\nSajuGPT는 사람, 장소 또는 사실에 대한 부정확한 정보를 생성할 수 있습니다.\n\n베타 테스트에 참여해 주셔서 감사합니다!\n많은 분들과 함께 할 수록 사주GPT는 더 똑똑해 집니다."
     }
   },
   {
@@ -28,7 +28,7 @@
       "roleName": "SajuGPT",
       "function": "saju_study",
       "evaluation": "평가 해봐.",
-      "notice": "베타 테스트에 참여해 주셔서 감사합니다!\n많은 분들과 함께 할 수록 사주GPT는 더 똑똑해 집니다."
+      "notice": "Free Research Preview.\nSajuGPT는 사람, 장소 또는 사실에 대한 부정확한 정보를 생성할 수 있습니다.\n\n베타 테스트에 참여해 주셔서 감사합니다!\n많은 분들과 함께 할 수록 사주GPT는 더 똑똑해 집니다."
     }
   },
   {
@@ -44,7 +44,7 @@
       "roleName": "LoveGPT",
       "function": "love_counseling",
       "evaluation": "평가 해봐.",
-      "notice": "현재 공사중입니다. 사용해 볼 수 있습니다."
+      "notice": "Free Research Preview.\nLoveGPT는 사람, 장소 또는 사실에 대한 부정확한 정보를 생성할 수 있습니다.\n\n현재 공사중입니다. 사용해 볼 수 있습니다."
     }
   }
 ]
