@@ -5,14 +5,26 @@
     "desc": "인공지능과 함께 생년월일시를 입력 하여 사주보기를 할 수 있습니다.",
     "isContinuous": true,
     "payment": "free",
-    "content": "너는 사주명리 전문가인 SajuGPT 이다. 모든 질문에 전문가 다운 답변을 하라.",
-    "tips": [],
+    "content": "\n위 사주를 기반으로 아래 질문에 답하시오. 질문자 호칭은 '당신'을 사용하세요.",
+    "tips": [
+      "오늘의 운세",
+      "내 사주상 성격과 유사한 MBTI는?",
+      "내 사주를 전반적으로 요약 해 주세요.",
+      "내 사주를 세줄로 요약 하세요.",
+      "내년 운세",
+      "오늘 운세 기반 저녁 메뉴 추천",
+      "내 운명을 한폭의 동양화로 표현해 보세요.",
+      "나는 왜 애인이 안생기나요?",
+      "오늘의 운세를 한줄로 요약하고, 1부터 45 숫자 중에서 행운의 숫자 7개를 골라 주세요."
+    ],
+    "temperature": 0.7,
+    "topP": 0.99,
     "extra": {
       "title": "사주보기",
       "roleName": "SajuGPT",
       "function": "ask_saju",
       "evaluation": "평가 해봐.",
-      "notice": "Free Research Preview.\nSajuGPT는 사람, 장소 또는 사실에 대한 부정확한 정보를 생성할 수 있습니다.\n\n베타 테스트에 참여해 주셔서 감사합니다!\n많은 분들과 함께 할 수록 사주GPT는 더 똑똑해 집니다."
+      "notice": "Free Research Preview.\nSajuGPT는 사람, 장소 또는 사실에 대한 부정확한 정보를 생성할 수 있습니다.\n\n베타 테스트에 참여해 주셔서 감사합니다!\n생일은 양력을 입력해 주세요.\n\n사용자가 많아 응답이 느려지고 있습니다.\n응답이 늦더라도 조금 기다리시면 차례대로 서비스 됩니다."
     }
   },
   {
@@ -21,30 +33,16 @@
     "desc": "인공지능과 함께 사주공부를 할 수 있습니다.",
     "isContinuous": true,
     "payment": "free",
-    "content": "너는 사주명리 전문가인 SajuGPT 이다. 모든 질문에 전문가 다운 답변을 하라.",
+    "content": "너는 사주명리 전문가인 SajuGPT 이다. 모든 질문에 전문가 답게 전문적인 용어로 답변을 하라.",
     "tips": [],
+    "temperature": 0.7,
+    "topP": 1.0,
     "extra": {
       "title": "사주공부",
       "roleName": "SajuGPT",
       "function": "saju_study",
       "evaluation": "평가 해봐.",
       "notice": "Free Research Preview.\nSajuGPT는 사람, 장소 또는 사실에 대한 부정확한 정보를 생성할 수 있습니다.\n\n베타 테스트에 참여해 주셔서 감사합니다!\n많은 분들과 함께 할 수록 사주GPT는 더 똑똑해 집니다."
-    }
-  },
-  {
-    "type": "연애상담",
-    "name": "연애상담",
-    "desc": "인공지능과 해 보는 재미있는 연애상담.",
-    "isContinuous": true,
-    "payment": "free",
-    "content": "너는 인공지능 연애, 부부관계 상담 전문인 LoveGPT 이다. 모든 질문에 성실히 답하라. 답을 할 때는 이전 대화의 맥락을 잘 파악하여 매우 신중하게 답하라. 질문이 아닌 경우에도 도움이 되는 말을 해줘야 한다.",
-    "tips": [],
-    "extra": {
-      "title": "연애상담(공사중)",
-      "roleName": "LoveGPT",
-      "function": "love_counseling",
-      "evaluation": "평가 해봐.",
-      "notice": "Free Research Preview.\nLoveGPT는 사람, 장소 또는 사실에 대한 부정확한 정보를 생성할 수 있습니다.\n\n현재 공사중입니다. 사용해 볼 수 있습니다."
     }
   }
 ]
