@@ -1,12 +1,19 @@
 {
-  "currentVersion": 60,
+  "currentVersion": 62,
   "announcement": [
     {
       "active": false,
       "showAnnouncementOnly": false,
-      "version": "0-27",
-      "title": "Announcement test",
-      "text": "Hello users!  \nPlease update app.  \n[here](https://play.google.com/store/apps/details?id=kr.semaphore.aienglish)"
+      "version": "0-100",
+      "title": "사용자 급증으로 인한 서비스 지연",
+      "text": "접속자가 많아 응답 속도가 느릴 때가 있습니다.\n\n응답이 늦더라도 화면을 갱신하지 마시고 기다리시면 차례로 서비스 됩니다.\n"
+    },
+    {
+      "active": false,
+      "showAnnouncementOnly": true,
+      "version": "0-100",
+      "title": "시스템 점검 중",
+      "text": "시스템 점검중입니다. 14:00 PM에 서비스 재개 예정입니다. 불편을 드려 죄송합니다."
     },
     {
       "active": false,
